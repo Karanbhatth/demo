@@ -18,7 +18,7 @@ public class Hello extends HttpServlet {
 
       // Set response content type
       response.setContentType("text/html");
-
+      //PGsecretCode=123456789;
       // Actual logic goes here.
       PrintWriter out = response.getWriter();
       out.println("<h1>" + message + "</h1>");
